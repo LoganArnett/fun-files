@@ -4,9 +4,6 @@
   "version": "0.8.0",
   "description": "Fun File Icons for Atom",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "fun-files:toggle"
-  },
   "repository": "https://github.com/LoganArnett/fun-files",
   "license": "MIT",
   "engines": {
