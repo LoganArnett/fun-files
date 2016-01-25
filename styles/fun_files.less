@@ -1,0 +1,127 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "file-icons";
+@import "ui-variables";
+
+@tab-selector: ~'atom-pane .tab-bar .tab .title[data-path]';
+@tab-temp-selector: ~'atom-pane .tab-bar .tab.temp .title[data-path]';
+
+.tab:not(.active) .title:before{
+  opacity: .4;
+}
+
+.icon-file-directory {
+  &:before {
+    .folder-icon;
+  }
+}
+.fun_files-tab-pane-icon @{tab-selector},
+.icon-file-text {
+
+  // Generique
+  // &:before {
+  //   .other-icon;
+  // }
+
+  // Text
+  &[data-name$=".html"]:before {
+    .html-icon;
+  }
+  &[data-name$=".htm"]:before {
+    .html-icon;
+  }
+  &[data-name$=".shtml"]:before {
+    .html-icon;
+  }
+  &[data-name$=".handlebars"]:before {
+    .handlebars-icon;
+  }
+  // &[data-name$=".haml"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".jade"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".jsp"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".ctp"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".ejs"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".swig"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".cshtml"]:before {
+  //   .text-icon;
+  // }
+  // &[data-name$=".kit"]:before {
+  //   .text-icon;
+  // }
+  &[data-name$=".md"]:before {
+    .md-icon;
+  }
+
+  // Program
+  &[data-name$=".js"]:before {
+    .js-icon;
+  }
+  &[data-name$=".coffee"]:before {
+    .coffeescript-icon;
+  }
+
+  // Data
+  &[data-name$=".xml"]:before {
+    .json-icon;
+  }
+  &[data-name$=".json"]:before {
+    .json-icon;
+  }
+
+  // Style
+  &[data-name$=".less"]:before {
+    .less-icon;
+  }
+  &[data-name$=".css"]:before {
+    .css-icon;
+  }
+  &[data-name$=".scss"]:before, &[data-name$=".sass"]:before {
+    .sass-icon;
+  }
+  &[data-name$=".styl"]:before {
+    .css-icon;
+  }
+
+  // Image
+  &[data-name$=".svg"]:before {
+    .img-icon;
+  }
+}
+
+// Image
+.icon-file-media[data-name$=".png"]:before {
+  .img-icon;
+}
+.icon-file-media[data-name$=".gif"]:before {
+  .img-icon;
+}
+.icon-file-media[data-name$=".jpg"]:before {
+  .img-icon;
+}
+.icon-file-media[data-name$=".jpeg"]:before {
+  .img-icon;
+}
+.icon-file-media[data-name$=".tiff"]:before {
+  .img-icon;
+}
+.icon-file-media[data-name$=".svg"]:before {
+  .img-icon;
+}
+
+.fun-files {
+
+}
