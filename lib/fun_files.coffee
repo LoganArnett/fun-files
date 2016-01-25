@@ -3,20 +3,20 @@ module.exports =
     light:
       type: 'boolean'
       default: false
-      description: 'Optimized for light themes'
+      description: 'Icons Suited for light themes'
     tabPaneIcon:
       type: 'boolean'
       default: true
       description: 'Icons on tabs'
 
   activate: (state) ->
-    atom.config.onDidChange 'fun_files.light', ({newValue, oldValue}) =>
+    atom.config.onDidChange 'Fun files.light', ({newValue, oldValue}) =>
       @light newValue
-    @light atom.config.get 'fun_files.light'
+    @light atom.config.get 'Fun files.light'
 
-    atom.config.onDidChange 'fun_files.tabPaneIcon', ({newValue, oldValue}) =>
+    atom.config.onDidChange 'Fun files.tabPaneIcon', ({newValue, oldValue}) =>
       @tabPaneIcon newValue
-    @tabPaneIcon atom.config.get 'fun_files.tabPaneIcon'
+    @tabPaneIcon atom.config.get 'Fun files.tabPaneIcon'
     # console.log 'activate'
 
   deactivate: ->
