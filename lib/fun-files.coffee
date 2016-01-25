@@ -10,13 +10,13 @@ module.exports =
       description: 'Icons on tabs'
 
   activate: (state) ->
-    atom.config.onDidChange 'Fun files.light', ({newValue, oldValue}) =>
+    atom.config.onDidChange 'fun-files.light', ({newValue, oldValue}) =>
       @light newValue
-    @light atom.config.get 'Fun files.light'
+    @light atom.config.get 'fun-files.light'
 
-    atom.config.onDidChange 'Fun files.tabPaneIcon', ({newValue, oldValue}) =>
+    atom.config.onDidChange 'fun-files.tabPaneIcon', ({newValue, oldValue}) =>
       @tabPaneIcon newValue
-    @tabPaneIcon atom.config.get 'Fun files.tabPaneIcon'
+    @tabPaneIcon atom.config.get 'fun-files.tabPaneIcon'
     # console.log 'activate'
 
   deactivate: ->
