@@ -1,10 +1,9 @@
 {
   "name": "fun_files",
   "main": "./lib/fun_files",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fun File Icons for Atom",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "fun_files:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
