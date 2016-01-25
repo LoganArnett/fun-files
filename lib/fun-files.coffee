@@ -28,15 +28,15 @@ module.exports =
   light: (enable) ->
     body = document.querySelector 'body'
     if enable
-      body.className = "#{body.className} fun_files-light"
+      body.className = "#{body.className} fun-files-light"
     else
-      body.className = body.className.replace /\sfun_files-light/, ''
+      body.className = body.className.replace /\sfun-files-light/, ''
 
 
   tabPaneIcon: (enable) ->
     body = document.querySelector 'body'
     className = body.className
     if enable
-      body.className = "#{className} fun_files-tab-pane-icon"
+      body.className = "#{className} fun-files-tab-pane-icon"
     else
-      body.className = className.replace /\sfun_files-tab-pane-icon/, ''
+      body.className = className.replace /\sfun-files-tab-pane-icon/, ''

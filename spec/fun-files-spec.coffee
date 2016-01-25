@@ -1,4 +1,4 @@
-FunFiles = require '../lib/fun_files'
+FunFiles = require '../lib/fun-files'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #

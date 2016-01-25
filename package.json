@@ -1,13 +1,13 @@
 {
-  "name": "fun_files",
-  "main": "./lib/fun_files",
+  "name": "fun-files",
+  "main": "./lib/fun-files",
   "version": "0.6.0",
   "description": "Fun File Icons for Atom",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "fun_files:toggle"
+    "atom-workspace": "fun-files:toggle"
   },
-  "repository": "https://github.com/LoganArnett/fun_files",
+  "repository": "https://github.com/LoganArnett/fun-files",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
