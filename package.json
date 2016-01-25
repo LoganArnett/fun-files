@@ -1,7 +1,7 @@
 {
   "name": "fun_files",
   "main": "./lib/fun_files",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Fun File Icons for Atom",
   "keywords": [],
   "activationCommands": {
