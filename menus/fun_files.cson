@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle fun-files'
-      'command': 'fun-files:toggle'
+      'label': 'Toggle Fun Files'
+      'command': 'fun_files:toggle'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'fun-files'
+      'label': 'Fun Files'
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'fun-files:toggle'
+          'command': 'fun_files:toggle'
         }
       ]
     ]
